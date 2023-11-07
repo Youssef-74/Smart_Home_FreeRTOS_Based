@@ -1,0 +1,8 @@
+../Core/Src/freertos.c:139:6:MX_FREERTOS_Init	8	static
+../Core/Src/freertos.c:211:6:Keypad_Task	24	static
+../Core/Src/freertos.c:268:6:Password_Task	32	static
+../Core/Src/freertos.c:335:6:Temperature_Task	24	static
+../Core/Src/freertos.c:378:6:Light_Task	24	static
+../Core/Src/freertos.c:417:6:Window_Task	40	static
+../Core/Src/freertos.c:446:9:CheckPassword	24	static
+../Core/Src/freertos.c:468:6:FanSpeed	16	static

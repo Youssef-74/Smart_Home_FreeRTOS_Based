@@ -1,0 +1,11 @@
+../Core/Src/LCD_interface.c:10:6:LCD_Init	2
+../Core/Src/LCD_interface.c:32:6:LCD_Send_Command	9
+../Core/Src/LCD_interface.c:51:6:LCD_Send_Char	9
+../Core/Src/LCD_interface.c:70:6:LCD_Send_Char_Pos	1
+../Core/Src/LCD_interface.c:75:6:LCD_Send_String	2
+../Core/Src/LCD_interface.c:82:6:LCD_Send_String_Pos	1
+../Core/Src/LCD_interface.c:87:6:LCD_Send_Number	4
+../Core/Src/LCD_interface.c:108:6:LCD_Send_Number_Pos	1
+../Core/Src/LCD_interface.c:114:6:LCD_Send_Cust_char	2
+../Core/Src/LCD_interface.c:125:13:Trigger_Enable	3
+../Core/Src/LCD_interface.c:139:13:Set_Cursor_Pos	3

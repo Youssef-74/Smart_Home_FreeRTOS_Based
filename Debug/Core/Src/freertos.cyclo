@@ -1,0 +1,8 @@
+../Core/Src/freertos.c:139:6:MX_FREERTOS_Init	1
+../Core/Src/freertos.c:211:6:Keypad_Task	7
+../Core/Src/freertos.c:268:6:Password_Task	6
+../Core/Src/freertos.c:335:6:Temperature_Task	5
+../Core/Src/freertos.c:378:6:Light_Task	3
+../Core/Src/freertos.c:417:6:Window_Task	2
+../Core/Src/freertos.c:446:9:CheckPassword	4
+../Core/Src/freertos.c:468:6:FanSpeed	5
