@@ -1,23 +1,23 @@
 # Smart Home Project using FreeRTOS and STM32F103C8 (ARM M3)
 <br>This Smart Home project is built for the STM32F103C8 microcontroller using FreeRTOS to control doors, fans, and windows. It employs various FreeRTOS elements such as Tasks, Queues, Semaphores, and Event Flags for efficient communication and synchronization among different functionalities.
 
-<br>Project Details
-<br>Functionalities
-##This project is structured around five tasks:
+<br> Project Details
+<br> Functionalities
+This project is structured around five tasks:
 
 ### Password Task
 
-Highest priority (osPriorityNormal)
-Monitors the password queue for received data with port max delay.
-Validates the correctness of the received password.
-Suspends two tasks (Keypad Task, Password Task) if the password is correct.
-Writes to LCD by requesting the semaphore.
-###Keypad Task
+<br>Highest priority (osPriorityNormal)
+<br>Monitors the password queue for received data with port max delay.
+<br>Validates the correctness of the received password.
+<br>Suspends two tasks (Keypad Task, Password Task) if the password is correct.
+<br>Writes to LCD by requesting the semaphore.
+### Keypad Task
 
-Priority: osPriorityLow1
-Checks for inputs from the keypad.
-Sends data to the front of the password queue with no task delay, directly sending to the Password Task if there's received data.
-###Temperature Task
+<br>Priority: osPriorityLow1
+<br>Checks for inputs from the keypad.
+<br>Sends data to the front of the password queue with no task delay, directly sending to the Password Task if there's received data.
+### Temperature Task
 
 Priority: osPriorityLow
 Initiates the ADC, interrupt-based, to convert temperature data.
