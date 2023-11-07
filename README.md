@@ -5,7 +5,7 @@
 <br>Functionalities
 ##This project is structured around five tasks:
 
-###Password Task
+### Password Task
 
 Highest priority (osPriorityNormal)
 Monitors the password queue for received data with port max delay.
